@@ -19,7 +19,9 @@ body {
   font-family: "Josefin Sans", sans-serif;
   color: var(--desaturated-red);
   background: linear-gradient(var(--gradient-white-to-soft-white));
+  background-repeat: no-repeat;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -156,6 +158,15 @@ form {
 .visible {
   opacity: 1;
   transition: 0.5s;
+}
+
+.attribution {
+  height: 4.375rem;
+}
+
+.attribution a {
+  color: var(--soft-red);
+  text-decoration: none;
 }
 
 @media (min-width: 500px) {
