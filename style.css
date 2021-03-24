@@ -124,6 +124,12 @@ form {
   bottom: 0.625rem;
 }
 
+.submit-container img {
+  position: absolute;
+  top: 0.75rem;
+  right: 1.25rem;
+}
+
 #submit-button {
   top: 0;
   right: 0;
@@ -243,6 +249,10 @@ form {
   .paragraph {
     font-size: 0.875rem;
     line-height: 1.5;
+  }
+
+  .submit-container img {
+    right: 1.875rem;
   }
 
   #submit-button {
